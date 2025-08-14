@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  netdata:
+    image: netdata/netdata:latest
+    container_name: netdata
+    ports:
+      - "5000:19999"   # Change 5000 to any port you want on your PC
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    restart: unless-stopped

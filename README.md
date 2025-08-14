@@ -38,9 +38,8 @@ It’s a lightweight, real-time monitoring solution for servers and applications
 
 2\. Clone this repository:
 
-&nbsp;  ```bash
 
-&nbsp;  git clone https://github.com/YOUR\_USERNAME/netdata-monitoring.git
+&nbsp;  git clone https://github.com/gauravkumare3e/netdata-monitoring.git
 
 &nbsp;  cd netdata-monitoring
 
